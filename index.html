@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khattarnelli - Descubre el sabor de la India en cada taza</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a>
+                    <img src="images/logo/khattarnelli_logo.png" alt="logo Khattarnelli">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#preparacion">Preparación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#contacto">Preguntas Frecuentes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Descubre el sabor de la India en cada taza</h1>
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <img class="carousel-image" src="images/seleccion17.jpg" alt="Mezcla 1">
+                    <img class="carousel-image" src="images/seleccion7.jpg" alt="Mezcla 2">
+                    <img class="carousel-image" src="images/seleccion6.jpg" alt="Mezcla 3">
+                    <img class="carousel-image" src="images/seleccion16.jpg" alt="Mezcla 4">
+                </div>
+                <button class="carousel-btn carousel-btn-prev">‹</button>
+                <button class="carousel-btn carousel-btn-next">›</button>
+            </div>
+            <div class="carousel-indicators">
+                <button class="carousel-indicator active" data-slide="0"></button>
+                <button class="carousel-indicator" data-slide="1"></button>
+                <button class="carousel-indicator" data-slide="2"></button>
+                <button class="carousel-indicator" data-slide="3"></button>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Comprar ahora</a>
+                <a href="#productos" class="btn btn-secondary">Ver productos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <p class="intro-text">
+                Khattarnelli celebra el bienestar natural mediante mezclas inspiradas en la tradición india y la medicina ayurvédica. Preparaciones auténticas que nutren cuerpo, mente y espíritu.
+            </p>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2>Beneficios principales</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Salud digestiva y antiinflamatoria</h3>
+                </div>
+                <div class="benefit-card">
+                    <h3>Energía natural sin ansiedad ni "bajón"</h3>
+                </div>
+                <div class="benefit-card">
+                    <h3>Apoyo al sistema inmune y respiratorio</h3>
+                </div>
+                <div class="benefit-card">
+                    <h3>Bienestar emocional y claridad mental</h3>
+                </div>
+                <div class="benefit-card">
+                    <h3>Ingredientes 100% naturales, sin conservadores</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-intro">
+        <div class="container">
+            <h2>Explorar nuestras mezclas</h2>
+            <div class="product-intro-grid">
+                <div class="product-intro-item">
+                    <h3>Té masala chai</h3>
+                    <p>Té negro mezclado con especias naturales, auténticas y de calidad para obtener mejor sabor y salud.</p>
+                    <img src="images/Imagen de WhatsApp 2025-11-03 a las 19.30.58_ec7f7d42.jpg" alt="Foto del paquete de Te Masala Chai">
+                </div>
+                <div class="product-intro-item">
+                    <h3>Masala café</h3>
+                    <p>Café mezclado con especias naturales, auténticas y de calidad.</p>
+                    <img src="images/seleccion8.jpg" alt="Foto del paquete de Masala Cafe">
+                </div>
+                <div class="product-intro-item">
+                    <h3>Leche dorada masala</h3>
+                    <p>Mezcla de especias naturales, auténticas y de calidad, añadiendo cúrcuma para mejorar la salud.</p>
+                    <img src="images/seleccion14.jpg" alt="Foto del paquete de Leche Dorada Masala">
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary">Explorar Mezclas</a>
+    </section>
+
+    <footer class="footer">
+        <div class="contacto-info">
+            <div class="contacto-item">
+                <strong>Telefono:</strong> <a href="#">+52 444 845 5155</a>
+            </div>
+            <div class="contacto-item">
+                <strong>Correo:</strong> <a href="mailto:khattarnelli@gmail.com">khattarnelli@gmail.com</a>
+            </div>
+            <div class="contacto-item">
+                <strong>Dirección:</strong> Remolino 210, Col. Garita de Jalisco, CP. 78294, San Luis Potosí, SLP. México
+            </div>
+            <div id="social-buttons" class="contacto-item">
+                <a href="https://www.facebook.com/share/1UsZz8mjwJ/?mibextid=wwXIfr" target="_blank" class="social-link">Facebook</a>
+                <a href="https://www.instagram.com/khattarnelli?igsh=MTN6cGQ0OGpreHJvYw==" target="_blank" class="social-link">Instagram</a>
+                <a href="" target="_blank" class="social-link">Politicas de Servicio</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <p>&copy; 2025 Khattarnelli. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.carousel-container');
+    const wrapper = document.querySelector('.carousel-wrapper');
+    const images = document.querySelectorAll('.carousel-image');
+    const prevBtn = document.querySelector('.carousel-btn-prev');
+    const nextBtn = document.querySelector('.carousel-btn-next');
+    const indicators = document.querySelectorAll('.carousel-indicator');
+    
+    let currentIndex = 0;
+    const totalSlides = images.length;
+    
+    function updateCarousel() {
+        // Calcular el desplazamiento basado en el ancho del contenedor
+        const containerWidth = container.offsetWidth;
+        const translateX = -currentIndex * containerWidth;
+        wrapper.style.transform = `translateX(${translateX}px)`;
+        
+        // Actualizar indicadores
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === currentIndex);
+        });
+        
+        // Actualizar estado de botones
+        prevBtn.disabled = currentIndex === 0;
+        nextBtn.disabled = currentIndex === totalSlides - 1;
+        
+        console.log('Slide actual:', currentIndex, 'Desplazamiento:', translateX);
+    }
+    
+    // Event listeners para botones
+    prevBtn.addEventListener('click', function() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+    });
+    
+    nextBtn.addEventListener('click', function() {
+        if (currentIndex < totalSlides - 1) {
+            currentIndex++;
+            updateCarousel();
+        }
+    });
+    
+    // Event listeners para indicadores
+    indicators.forEach(indicator => {
+        indicator.addEventListener('click', function() {
+            const slideIndex = parseInt(this.getAttribute('data-slide'));
+            currentIndex = slideIndex;
+            updateCarousel();
+        });
+    });
+    
+    // Redimensionar en caso de cambio de tamaño de ventana
+    window.addEventListener('resize', updateCarousel);
+    
+    // Inicializar
+    updateCarousel();
+});
+</script>
+</html>
