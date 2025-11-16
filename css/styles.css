@@ -10,7 +10,7 @@
     --accent-color: #f59e0b;
     --text-dark: #1f2937;
     --text-light: #6b7280;
-    --bg-light: #fffbeb;
+    --bg-light: #fff4c6;
     --bg-cream: #fef3c7;
     --white: #ffffff;
     --border-color: #fde68a;
@@ -147,6 +147,8 @@ body {
     padding: 80px 0;
     background-color: var(--bg-light);
     text-align: center;
+    border-bottom-left-radius: 20em;
+    border-bottom-right-radius: 20em;
 }
 
 .intro-text {
@@ -196,6 +198,8 @@ body {
 .product-intro {
     padding: 80px 0;
     background-color: var(--bg-light);
+    border-top-left-radius: 20em;
+    border-top-right-radius: 20em;
 }
 
 .product-intro .btn{
